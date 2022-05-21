@@ -1,0 +1,35 @@
+.main {
+  margin: 0px 80px;
+  max-width: 70vw;
+}
+
+.post_title {
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.post_title:hover {
+  color: #4267b2;
+}
+
+details {
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 15px;
+}
+.commentsButton{
+    cursor: pointer;
+    margin-left: 10px;
+}

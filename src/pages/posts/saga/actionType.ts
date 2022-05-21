@@ -1,0 +1,4 @@
+export const types = {
+    SET_POSTS_SAGA: "SET_POSTS_SAGA",
+    SET_POST_COMMENTS_SAGA: "SET_POST_COMMENTS_SAGA"
+}

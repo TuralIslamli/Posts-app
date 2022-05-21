@@ -1,0 +1,48 @@
+.main {
+    margin: 0px 80px;
+    max-width: 50vw;
+  }
+  
+  .user_title {
+    width: 100%;
+    min-width: 500px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .user_title:hover {
+    color: #4267b2;
+  }
+  
+  details {
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  details[open] {
+      padding: .5em;
+  }
+  
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: 15px;
+  }
+
+  .user_info{
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+  }
+
+  .posts_btn{
+    padding: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+  }
