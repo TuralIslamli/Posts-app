@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-one {
+  margin-top: 20px;
+  min-height: 40px;
+  border: 3px solid black;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.block-two {
+  margin-top: 20px;
+  font-size: 28px;
+  padding: 15px;
+  border: 3px solid black;
+}
+
+.input {
+  margin-top: 20px;
+  border: 3px solid black;
+  min-height: 40px;
+  width: 80%;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 3px solid black;
+  min-height: 40px;
+  padding: 15px;
+  background: transparent;
+}
